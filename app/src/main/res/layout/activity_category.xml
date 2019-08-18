@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Products"
+        android:textSize="26sp"
+        android:textColor="@android:color/background_dark"
+        android:textAlignment="center"
+        android:layout_marginTop="27dp"
+        android:textStyle="bold"
+        android:background="@drawable/buttons"/>
+
+    <LinearLayout
+        android:id="@+id/linear_Layout_Category1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/slogan_category"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/whey_iso"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/whey_iso" />
+
+        <ImageView
+            android:id="@+id/whey_conc"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/whey" />
+
+        <ImageView
+            android:id="@+id/whey_hydro"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/whey_hydro" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_Layout_Category2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_Layout_Category1"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/whey_raw"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/raw_whey" />
+
+        <ImageView
+            android:id="@+id/multi_vitamin"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/multi_vitamin" />
+
+        <ImageView
+            android:id="@+id/mass_gainer"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/mass_gainer" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_Layout_Category3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_Layout_Category2"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/bcaa"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/bcaa" />
+
+        <ImageView
+            android:id="@+id/fish_oil"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/fish_oil" />
+
+        <ImageView
+            android:id="@+id/creatine"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/creatine" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_Layout_Category4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_Layout_Category3"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/tetso_boost"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/tetso_boost" />
+
+        <ImageView
+            android:id="@+id/dinabol"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/dinabol" />
+
+        <ImageView
+            android:id="@+id/glutamine"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/glutamine" />
+
+
+    </LinearLayout>
+</RelativeLayout>
